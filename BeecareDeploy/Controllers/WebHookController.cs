@@ -16,7 +16,7 @@ public class WebHookController:ControllerBase
     [HttpPost]
     public IActionResult PullEvent(string content)
     {
-            ExecuteCommand(@$"C:\Users\Luis Cruz\Desktop\prueba.bat -branch {_config.Repo.Branch} -repopath {_config.Repo.LocalPath} -pythonexe {_config.PythonExe} " );
+            ExecuteCommand(@$"C:\Users\Luis Cruz\Desktop\prueba.bat {} -branch {_config.Repo.Branch} -repopath {_config.Repo.LocalPath} -pythonexe {_config.PythonExe} " );
         return Ok("Thank you!");
     }
     public void ExecuteCommand(string command)

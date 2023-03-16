@@ -1,0 +1,8 @@
+{
+  "PythonExe": "Ruta absoluta del ejecutable de python. Debe ser el ejecutable de tu ambiente virtual",
+  "Repo": {
+    "Name": "Nombre del repositorio",
+    "Url": "Url del repositorio",
+    "LocalPath": "Ruta local del repositorio, el repositorio debe ser clonado previamente."
+  }
+}

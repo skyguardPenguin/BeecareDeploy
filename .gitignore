@@ -12,7 +12,8 @@ artifacts/
 
 # VS Code
 .vscode/
-
+#Visual Studio
+.vs/
 *_i.c
 *_p.c
 *_i.h
