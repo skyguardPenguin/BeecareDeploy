@@ -13,7 +13,7 @@ public class WebHookController:ControllerBase
     {
         _config = config;
     }
-
+    [HttpPost]
     public IActionResult PullEvent(string content)
     {
             ExecuteCommand(@$"C:\Users\Luis Cruz\Desktop\prueba.bat -branch {_config.Repo.Branch} -repopath {_config.Repo.LocalPath} -pythonexe {_config.PythonExe} " );

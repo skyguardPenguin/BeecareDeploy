@@ -1,6 +1,8 @@
 [Dd]ebugPS/
 [Rr]eleasePS/
 dlldata.c
+#Archivo de configuración de desarrollo
+BeecareDeploy/Config/devConfig.json
 
 # .NET Core
 project.lock.json
